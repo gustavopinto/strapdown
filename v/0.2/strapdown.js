@@ -402,7 +402,7 @@ var PR=win['PR']={'createSimpleLexer':createSimpleLexer,'registerLangHandler':re
   var newNode = document.createElement('div');
   newNode.className = 'navbar navbar-fixed-top';
   if (!navbarEl && titleEl) {
-    newNode.innerHTML = '<div class="navbar-inner"> <div class="container"> <div id="headline" class="brand"> <a href="/">Home</a> </div> <div id="headline" class="brand"> <a href="/research">Research</a> </div>  <div id="headline" class="brand"> <a href="/publications">Publications</a>  <div id="headline" class="brand"> <a href="/publications">Personal</a> </div> </div> </div> </div>';
+    newNode.innerHTML = '<div class="navbar-inner"> <div class="container"> <div id="headline" class="brand"> <a href="/">Home</a> </div> <div id="headline" class="brand"> <a href="/publications">Publications</a> </div>  <div id="headline" class="brand"> <a href="/codefather">Codefather</a> </div>  <div id="headline" class="brand"> <a href="/personal">Personal</a> </div> </div> </div>';
     document.body.insertBefore(newNode, document.body.firstChild);
   }
 
